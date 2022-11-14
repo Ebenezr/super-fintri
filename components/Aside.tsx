@@ -14,7 +14,7 @@ import AlbumIcon from "@mui/icons-material/Album";
 
 const Aside = () => {
   return (
-    <aside className="bg-bg w-1/3 p-4 flex flex-col">
+    <aside className="bg-bg w-1/3 p-4 flex flex-col border-r-2">
       {/* logo */}
       <div className="pb-6 flex gap-2 items-center">
         <AlbumIcon className="text-primary" />
@@ -71,7 +71,7 @@ const Aside = () => {
         </div>
       </div>
       {/* help center card */}
-      <div className="w-full rounded-xl p-4 flex flex-col gap-3 justify-center items-center bg-infoDark/5 relative justify-self-end">
+      <div className="w-full rounded-xl p-4 flex flex-col gap-3 justify-center items-center bg-gradient-to-b from-primary/5 to-primary/70 relative justify-self-end">
         {/* question circle badge */}
         <div className="drop-shadow-xl absolute top-0 bg-white rounded-full w-12 h-12 -translate-y-1/2 grid place-items-center">
           <div className="bg-accent w-3/5 h-3/5 rounded-full grid place-items-center">
@@ -80,7 +80,7 @@ const Aside = () => {
         </div>
 
         <h3 className="mt-4">Help Center</h3>
-        <p className="text-center">
+        <p className="text-center text-neutral-700">
           Having trouble in Finti. Please contact us for more questions
         </p>
         <button className="bg-white text-gray-700 rounded-lg px-3 py-1 font-semibold text-sm shadow-lg">
