@@ -4,7 +4,6 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import CenterFocusStrongIcon from "@mui/icons-material/CenterFocusStrong";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import ReceiptIcon from "@mui/icons-material/Receipt";
-import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import ApiIcon from "@mui/icons-material/Api";
 import FolderSharedIcon from "@mui/icons-material/FolderShared";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
