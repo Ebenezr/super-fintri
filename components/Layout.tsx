@@ -5,9 +5,9 @@ interface Layoutprops {
 }
 const Layout: React.FC<Layoutprops> = ({ children }) => {
   return (
-    <div className="grid grid-cols-2 h-[100vh] w-screen">
+    <div className="grid grid-cols-6 h-[100vh] w-screen">
       <Aside />
-      <main className="flex flex-col">{children}</main>
+      <main className="col-start-2 col-end-7 bg-white h-full ">{children}</main>
     </div>
   );
 };

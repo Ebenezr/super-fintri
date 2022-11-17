@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Nav from "./sections/nav";
 
 export default function Home() {
   return (
@@ -10,9 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">man</main>
-
-      <footer className=""></footer>
+      <main className="px-6 py-5 h-screen w-full">
+        <header className="h-1/4 bg-bg -mx-6 px-6 py-5 -my-5 border-b-2">
+          {/* nav bar */}
+          <Nav />
+        </header>
+      </main>
     </div>
   );
 }

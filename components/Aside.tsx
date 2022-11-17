@@ -13,7 +13,7 @@ import AlbumIcon from "@mui/icons-material/Album";
 
 const Aside = () => {
   return (
-    <aside className="bg-bg w-1/3 p-4 flex flex-col border-r-2">
+    <aside className="bg-bg  p-4 flex flex-col border-r-2">
       {/* logo */}
       <div className="pb-6 flex gap-2 items-center">
         <AlbumIcon className="text-primary" />
