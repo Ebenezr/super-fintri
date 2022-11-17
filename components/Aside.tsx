@@ -70,7 +70,7 @@ const Aside = () => {
         </div>
       </div>
       {/* help center card */}
-      <div className="w-full rounded-xl p-4 flex flex-col gap-3 justify-center items-center bg-gradient-to-b from-primary/5 to-primary/70 relative justify-self-end">
+      <div className="w-full rounded-xl p-4 flex flex-col gap-3 justify-center items-center backdrop-blur-md bg-primary/30 relative justify-self-end">
         {/* question circle badge */}
         <div className="drop-shadow-xl absolute top-0 bg-white rounded-full w-12 h-12 -translate-y-1/2 grid place-items-center">
           <div className="bg-accent w-3/5 h-3/5 rounded-full grid place-items-center">
