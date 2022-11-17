@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Nav from "./sections/nav";
+import Status from "./sections/Status";
 
 export default function Home() {
   return (
@@ -11,11 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-6 py-5 h-screen w-full">
+      <main className="px-6 py-5 h-screen w-full flex flex-col gap-2">
         <header className="h-1/4 bg-bg -mx-6 px-6 py-5 -my-5 border-b-2">
           {/* nav bar */}
           <Nav />
-        </header>
+        </header>{" "}
+        {/*status section */}
+        <Status />
       </main>
     </div>
   );
