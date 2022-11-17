@@ -1,6 +1,6 @@
 const Status = () => {
   return (
-    <div className="border-t-2 border-b-2 mt-8">
+    <div className="border-t-2 border-b-2 mt-[8rem]">
       {/*cards wrapper*/}
       <div className="grid grid-cols-3 py-6">
         {/*card*/}

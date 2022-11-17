@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <nav className="flex justify-between items-center ">
+    <nav className="flex justify-between items-center">
       <div className="flex items-center relative  ">
         <svg
           xmlns="http://www.w3.org/2000/svg"

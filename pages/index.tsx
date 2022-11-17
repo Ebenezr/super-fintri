@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Cards from "./sections/Cards";
 import Nav from "./sections/nav";
 import Status from "./sections/Status";
 
@@ -13,9 +14,10 @@ export default function Home() {
       </Head>
 
       <main className="px-6 py-5 h-screen w-full flex flex-col gap-2">
-        <header className="h-1/4 bg-bg -mx-6 px-6 py-5 -my-5 border-b-2">
+        <header className="h-1/4 bg-bg -ml-6 -mr-6 px-6 py-5 -my-5 border-b-2 relative">
           {/* nav bar */}
           <Nav />
+          <Cards />
         </header>{" "}
         {/*status section */}
         <Status />
