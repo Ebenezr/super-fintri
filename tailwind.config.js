@@ -21,6 +21,9 @@ module.exports = {
         info: "hsl(240,9%,75%)",
         infoDark: "hsl(250,12%,41%)",
       },
+      aspectRatio: {
+        "4/2": "4 / 2",
+      },
     },
   },
   plugins: [],

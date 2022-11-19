@@ -13,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-6 py-5 h-screen w-full flex flex-col gap-2">
-        <header className="h-1/4 bg-bg -ml-6 -mr-6 px-6 py-5 -my-5 border-b-2 relative">
+      <main className=" py-5 h-screen w-full flex flex-col gap-2">
+        <header className="h-1/4 bg-bg py-5 -my-5 border-b-2 relative w-full">
           {/* nav bar */}
           <Nav />
           <Cards />
